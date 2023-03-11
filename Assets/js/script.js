@@ -14,9 +14,9 @@ function RandomIndex(arr = []) {
 }
 // Prompts
 function passwordPrompts() {
-  var lengthPrompt = window.prompt("How long would you like this password to be?");
-  var hasNumbers = window.confirm("Would you like to include numbers?");
-  var hasLowerCase = window.confirm("Would you like to have lowercase Letters?");
+  var lengthPrompt = window.prompt("How long would you like this password to be between 8 and 128?");
+  var hasNumbers = window.confirm("Would you like to include Numbers?");
+  var hasLowerCase = window.confirm("Would you like to have Lowercase Letters?");
   var hasUpperCase = window.confirm("Would you like to have Uppercase Letters?");
   var hasSpecial = window.confirm("Would you like to have Special Characters?");
   var parsedLength = Number.parseInt(lengthPrompt);
