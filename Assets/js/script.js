@@ -23,12 +23,12 @@ function passwordPrompts() {
 
 // Validations 
 if (Number.isNaN(parsedLength) || (parsedLength < 8 || parsedLength > 128)) {
-window.alert("Invalid Entry, password length must be a number greater than 8 and less than 128");
+window.alert("Invalid Entry. Password Length must be a number greater than 8 and less than 128");
 return null
 }
 
 if (!hasNumbers && !hasLowerCase && !hasUpperCase && !hasSpecial) {
- window.alert("Please answer yes to at least 1 selection to generate your password");
+ window.alert("Please answer Yes to at least 1 selection option to generate your password");
   return null; 
   }
 
